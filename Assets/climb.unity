@@ -139,8 +139,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 37239240}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 2.4, z: 1.637}
-  m_LocalScale: {x: 10.778, y: 0.20873481, z: 0.6170023}
+  m_LocalPosition: {x: -0, y: 2.28, z: 1.64}
+  m_LocalScale: {x: 10.778, y: 0.5254174, z: 0.6170023}
   m_Children: []
   m_Father: {fileID: 2040106139}
   m_RootOrder: 1
@@ -163,7 +163,7 @@ MeshRenderer:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 37239240}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -1952,15 +1952,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400136, guid: 8c2cabfda21314fb1a40ae76abc4948e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -4.440892e-13
+      value: -3.9790393e-13
       objectReference: {fileID: 0}
     - target: {fileID: 400136, guid: 8c2cabfda21314fb1a40ae76abc4948e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.13458835
+      value: 0.13458836
       objectReference: {fileID: 0}
     - target: {fileID: 400136, guid: 8c2cabfda21314fb1a40ae76abc4948e, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.0000000045183692
+      value: -0.0000000074505797
       objectReference: {fileID: 0}
     - target: {fileID: 400014, guid: 8c2cabfda21314fb1a40ae76abc4948e, type: 3}
       propertyPath: m_LocalRotation.x
@@ -2445,13 +2445,13 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 955135476}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 4.325, y: 2.53, z: -0.16}
+  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 4.32, y: 2.48, z: -0.16}
   m_LocalScale: {x: 0.63748646, y: 0.6246036, z: 0.45281}
   m_Children: []
   m_Father: {fileID: 2040106139}
   m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!114 &955135478
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2738,7 +2738,7 @@ SphereCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1563823062}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Radius: 0.5
@@ -3059,7 +3059,7 @@ SphereCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2135291444}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Radius: 0.5
